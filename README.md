@@ -52,6 +52,14 @@ Use each folder's README for setup and deployment:
 
 Base URL (local): `http://localhost:8000`
 
+Base URL (production): `https://ip-geolocation-d1majxgp8-jasmines-projects-cb4a75b1.vercel.app`
+
+Frontend deployment env var:
+
+```bash
+VITE_API_URL=https://ip-geolocation-d1majxgp8-jasmines-projects-cb4a75b1.vercel.app
+```
+
 ### 1) Login
 
 `POST /api/login`
